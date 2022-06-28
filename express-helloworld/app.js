@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World esta es la version 2 de la app!\n');
+  res.send('Hello World esta es la version 2 de la app ahora automaticamnte!\n');
 });
 
 app.get('/lets', function(req, res) { 
